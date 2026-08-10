@@ -55,6 +55,7 @@ async function create(req, res) {
             judul,
             sinopsis,
             tahun_terbit,
+            gambar,
             penulis_id
         });
 
