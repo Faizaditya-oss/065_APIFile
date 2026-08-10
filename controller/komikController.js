@@ -49,6 +49,8 @@ async function create(req, res) {
             });
         }
 
+        const gambar = req.file ? req.file.filename : null;
+
         const komik = await Komik.create({
             judul,
             sinopsis,
